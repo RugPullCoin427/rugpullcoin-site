@@ -3,80 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RUGPULLCOIN ($RUG)</title>
+  <title>RugPullCoin</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #3a0e0e; /* dunkles Rot */
-      color: #000000; /* schwarz */
+      background-color: #000;
+      color: #fff;
     }
-
     header {
-      background-color: #806000; /* dunkles Gold für Header */
-      padding: 20px;
+      background-color: #8B0000;
+      padding: 1em;
+      color: gold;
       text-align: center;
+      font-size: 1.5em;
     }
-
-    header h1 {
-      margin: 0;
-      color: #000000; /* schwarz */
-      font-size: 2rem;
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      background-color: #111;
+      padding: 1em;
     }
-
-    main {
-      padding: 40px 20px;
-      max-width: 900px;
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+      max-width: 1000px;
       margin: auto;
     }
-
-    section {
-      margin-bottom: 40px;
-    }
-
     h2 {
-      color: #d4af37;
+      color: gold;
     }
-
-    a {
-      color: #d4af37;
-      text-decoration: underline;
+    footer {
+      text-align: center;
+      padding: 2em;
+      background-color: #111;
+      font-size: 0.9em;
+      color: gray;
     }
-
-    a:hover {
-      color: #ffd700;
+    .highlight {
+      color: gold;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>RUGPULLCOIN ($RUG)</h1>
+    RugPullCoin ($RUG)
   </header>
-  <main>
-    <section>
-      <h2>About the Coin</h2>
-      <p>Total Supply: 1,000,000,000 $RUG</p>
-      <p>Pre-sale price (likely): $0.0005</p>
-      <p>Launch price: $0.001</p>
-    </section>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#team">Team</a>
+    <a href="#future">Future</a>
+  </nav>
 
-    <section>
-      <h2>Join the Community</h2>
-      <p>
-        Telegram: <a href="https://t.me/YOUR_TELEGRAM_LINK">@RugPullCoin</a><br />
-        Twitter/X: <a href="https://twitter.com/YOUR_TWITTER">@Rug_pull</a>
-      </p>
-    </section>
+  <section id="home">
+    <h2>Welcome to RugPullCoin</h2>
+    <p>Born from the degen spirit, but forged with purpose. $RUG is the coin that embraces the chaos with a wink. We are building a strong community, creating memes that slap, and planning big moves. This is your entry into something real and ridiculous at the same time.</p>
+    <p>Follow us:
+      <br />
+      <a href="https://t.me/YOUR_TELEGRAM" class="highlight">Telegram</a>
+      <br />
+      <a href="https://x.com/YOUR_TWITTER" class="highlight">Twitter</a>
+    </p>
+  </section>
 
-    <section>
-      <h2>Roadmap</h2>
-      <ul>
-        <li>Phase 1 – Community setup, giveaways, shill contests</li>
-        <li>Phase 2 – Pre-sale (based on community interest)</li>
-        <li>Phase 3 – Official Launch</li>
-        <li>Phase 4 – Listings, expansion, staking plans</li>
-      </ul>
-    </section>
-  </main>
+  <section id="about">
+    <h2>About the Coin</h2>
+    <p>Total Supply: <span class="highlight">1,000,000,000 $RUG</span></p>
+    <p>Pre-Sale Price: <span class="highlight">$0.0005 (tentative)</span></p>
+    <p>Launch Price: <span class="highlight">$0.001</span></p>
+    <p>$RUG isn’t just a meme – it’s a movement. Transparent, community-driven, and chaotic-good. With zero promises and maximum vibes, this is your chance to hold something legendary.</p>
+  </section>
+
+  <section id="team">
+    <h2>Meet the Team</h2>
+    <p>The brains behind $RUG are a collective of experienced builders, marketers, and full-time degenerates. While remaining anonymous, each team member has a proven track record in crypto and a passion for disruption.</p>
+  </section>
+
+  <section id="future">
+    <h2>The Road Ahead</h2>
+    <ul>
+      <li><span class="highlight">Phase 1:</span> Community setup, giveaways, shill contests.</li>
+      <li><span class="highlight">Phase 2:</span> Pre-sale campaign (based on community size).</li>
+      <li><span class="highlight">Phase 3:</span> Coin launch and liquidity pool.</li>
+      <li><span class="highlight">Phase 4:</span> Post-launch utility, marketing pushes, partnerships and possible staking features.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 RugPullCoin. Built by believers, for degenerates.
+  </footer>
 </body>
 </html>
