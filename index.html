@@ -1,148 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RugPullCoin - Official Site</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #fff;
-        }
-
-        header {
-            background-color: #5a0000;
-            padding: 20px;
-            color: #d4af37;
-            font-size: 28px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            background-color: #111;
-            padding: 10px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 40px;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        h2 {
-            color: #d4af37;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #111;
-            color: #888;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUG Coin | Official Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #300000;
+      color: gold;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1a1a1a;
+    }
+    nav a {
+      padding: 1rem;
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #333;
+    }
+    .tab {
+      display: none;
+      padding: 2rem;
+    }
+    .tab.active {
+      display: block;
+    }
+    h2 {
+      color: gold;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-        RugPullCoin ($RUG) - Embrace the Risk, Enjoy the Ride
-    </header>
+  <header>RUGPULLCOIN ($RUG)</header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#features">Features</a>
-        <a href="#tokenomics">Tokenomics</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#community">Community</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <nav>
+    <a href="#" onclick="showTab('home')">Home</a>
+    <a href="#" onclick="showTab('about')">About</a>
+    <a href="#" onclick="showTab('tokenomics')">Tokenomics</a>
+    <a href="#" onclick="showTab('roadmap')">Roadmap</a>
+    <a href="#" onclick="showTab('future')">Future</a>
+    <a href="#" onclick="showTab('team')">Team</a>
+    <a href="#" onclick="showTab('join')">Join Us</a>
+  </nav>
 
-    <section id="about">
-        <h2>About RugPullCoin</h2>
-        <p>
-            RugPullCoin (RUG) is not your typical cryptocurrency. It's self-aware. It knows the risks, and it wears them like a badge of honor. 
-            Born out of the meme economy and driven by a fearless community of degens and believers, $RUG is more than a token—it's a social experiment, a cultural wave, and a digital statement.
-        </p>
-        <p>
-            With humor at its core and bold transparency in its DNA, RugPullCoin flips the script on traditional crypto marketing. 
-            Our project blends irony with real tokenomics and a committed community. We openly acknowledge the volatile nature of the space and invite you to play the game with eyes wide open.
-        </p>
-        <p>
-            RugPullCoin isn’t just a name—it’s a warning and a badge of honor. And if you can laugh with us while we build, you belong in the RUG revolution.
-        </p>
-    </section>
+  <div id="home" class="tab active">
+    <h2>Welcome to RUGPULLCOIN</h2>
+    <p>$RUG is the most self-aware meme coin on the BSC. Born from the chaos, embraced by degenerates. It doesn't promise the moon, but it might deliver a rocket — or a rug. Your choice.</p>
+    <p>Telegram: <a href="https://t.me/+e9K447eBrN42Y2U6" style="color:gold">Join our group</a></p>
+    <p>Twitter: <a href="https://x.com/RugCoin_pull" style="color:gold">Follow us</a></p>
+  </div>
 
-    <section id="features">
-        <h2>What Makes $RUG Different</h2>
-        <ul>
-            <li>🔥 Meme-Driven: Humor, chaos, and energy fuel our community.</li>
-            <li>🧠 Transparent & Self-Aware: We’re not afraid to tell the truth.</li>
-            <li>💸 Deflationary Mechanics: Yes, we burn RUG. Supply drops over time.</li>
-            <li>🎉 Giveaways & Contests: Always rewarding creativity and community.</li>
-            <li>🚀 Future Utility: NFTs, dApp integrations, DAO voting planned.</li>
-        </ul>
-    </section>
+  <div id="about" class="tab">
+    <h2>About the Coin</h2>
+    <p>$RUG was built with honesty: we might rug, but at least we tell you upfront. It’s a coin for the bold, the ironic, and those who know how this game works. No fake promises, no long essays about solving world hunger. Just memes, community, and chaos.</p>
+    <p>Total Supply: 1,000,000,000 RUG</p>
+    <p>Presale Price: $0.0005 (subject to demand)</p>
+    <p>Launch Price: $0.001</p>
+  </div>
 
-    <section id="tokenomics">
-        <h2>Tokenomics</h2>
-        <p><strong>Total Supply:</strong> 1,000,000,000 $RUG</p>
-        <p><strong>Allocated:</strong></p>
-        <ul>
-            <li>🔥 10% Airdrops & Contests (Giveaways + Shill Events)</li>
-            <li>💰 20% Presale & Community Access</li>
-            <li>🪙 25% Liquidity Pool (initial & future LP locks)</li>
-            <li>📈 10% Marketing & Expansion</li>
-            <li>👨‍💻 10% Team (vested over 6-12 months)</li>
-            <li>🔒 25% Reserved for future use cases</li>
-        </ul>
-        <p><strong>Presale Price:</strong> $0.0005 (tentative)</p>
-        <p><strong>Launch Price:</strong> $0.001</p>
-    </section>
+  <div id="tokenomics" class="tab">
+    <h2>Tokenomics</h2>
+    <p>• Total Supply: 1,000,000,000 RUG<br>
+       • Giveaway & Shill Rewards: ~10–20M RUG<br>
+       • Community Incentives: 15%<br>
+       • Team Reserve: 10% (locked)<br>
+       • Liquidity & Launch: 40%<br>
+       • Remaining: For chaos, memes & future experiments</p>
+  </div>
 
-    <section id="roadmap">
-        <h2>Roadmap</h2>
-        <p><strong>Phase 1:</strong> Community Setup, Branding, Meme Launch, Shill Contest, Giveaways, Website Live</p>
-        <p><strong>Phase 2:</strong> Presale (if demand is sufficient), Token Listing Strategy, Cross-promo with influencers</p>
-        <p><strong>Phase 3:</strong> Official Launch, Liquidity Pool deployment, CMC/CG Listings</p>
-        <p><strong>Phase 4:</strong> Post-launch marketing, NFT drop, DAO framework planning, future utility planning</p>
-    </section>
+  <div id="roadmap" class="tab">
+    <h2>Roadmap</h2>
+    <p>• Phase 1: Community Setup, Shill Contest, Early Vibes<br>
+       • Phase 2: Presale (depending on interest), Partner Outreach<br>
+       • Phase 3: Official Launch + CMC + CG Listings<br>
+       • Phase 4: Meme Domination, Giveaways, Degen Campaigns<br>
+       • Phase 5: Who knows? We're unpredictable. Like the chart.</p>
+  </div>
 
-    <section id="community">
-        <h2>Join the Community</h2>
-        <p>
-            Telegram: <a href="https://t.me/+e9K447eBrN42Y2U6" style="color:#d4af37">@rugpullcommunity</a><br>
-            Twitter: <a href="https://twitter.com/RugCoin_pull" style="color:#d4af37">@RugCoin_pull</a>
-        </p>
-        <p>
-            Our meme game is strong, our vibes are stronger. From weekly contests to chaos on the timeline, the $RUG fam keeps the energy real. 
-            Join us as we turn crypto fear into community fuel.
-        </p>
-        <p>
-            🚨 Pro tip: shill hard, laugh harder, and always DYOR.
-        </p>
-    </section>
+  <div id="future" class="tab">
+    <h2>The Future of RUG</h2>
+    <p>We don’t plan in quarters, we plan in chaos. Still, we want to grow a community that understands the game — rewards the loudest shills, the weirdest memes, and the most loyal degenerates. NFTs? Maybe. A rug museum? Probably. Going viral for the wrong reasons? Definitely.</p>
+  </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>
-            For partnership inquiries, media outreach, or team contact, reach out via Telegram or Twitter DMs. We respond fast (unless we’re in the middle of a rug meme war).
-        </p>
-    </section>
+  <div id="team" class="tab">
+    <h2>The Team</h2>
+    <p>We're anonymous but loud. A crew of crypto creatives, degen veterans, and meme lords. No doxx, no suits, no nonsense. Just vibes and vision. 🧠</p>
+  </div>
 
-    <footer>
-        &copy; 2025 RugPullCoin. Made by degen hands, with chaotic love.
-    </footer>
+  <div id="join" class="tab">
+    <h2>Join the RUG Movement</h2>
+    <p>Follow, shill, post, and tag. Use #Rugpull. The louder you are, the more likely we’ll hear you. Want RUG coins? Don’t beg — earn them by being legendary. Let's see who can meme the hardest. 💥</p>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
 </body>
-
 </html>
